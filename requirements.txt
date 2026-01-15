@@ -1,0 +1,16 @@
+fastapi
+uvicorn
+python-dotenv
+huggingface_hub
+langchain
+langchain-core
+langchain-community
+langchain-openai
+langchain-huggingface
+langchain-milvus
+langgraph
+pymilvus
+milvus-lite
+pydantic
+sentence-transformers
+torch
