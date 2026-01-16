@@ -10,7 +10,7 @@ By combining Retrieval-Augmented Generation (RAG) with a fine-tuned LoRA model, 
 ## Key Features
 
 * **Deep Penal Code Specialization:** Specifically fine-tuned to understand criminal terminology and logic, such as distinguishing between *Theft*, *Robbery*, and *Embezzlement*.
-* **🧠 Intelligent Sentencing Logic:**
+* **Intelligent Sentencing Logic:**
     * **Age-Based Liability:** Automatically detects if the offender or victim is under 18 to apply specific leniency or aggravating circumstances (e.g., distinct sentencing frameworks for minors vs. adults).
     * **Penalty Calculation:** Weighs aggravating factors against mitigating factors to recommend precise jail terms or monetary fines based on the net liability.
 
@@ -21,9 +21,9 @@ By combining Retrieval-Augmented Generation (RAG) with a fine-tuned LoRA model, 
 
 
 * **Multi-Perspective Simulation:**
-    * **The Judge (Thẩm Phán):** Delivers a cold, fact-based verdict focusing on the exact article and clause.
-    * **Defense Attorney (Luật sư Bào chữa):** Scans the database for every possible mitigating factor to argue for a suspended sentence (Án treo).
-    * **Victim's Lawyer (Bảo vệ Bị hại):** Focuses on maximum penalty frameworks and civil compensation claims.
+    * **The Judge:** Delivers a cold, fact-based verdict focusing on the exact article and clause.
+    * **Defense Attorney:** Scans the database for every possible mitigating factor to argue for a suspended sentence (Án treo).
+    * **Victim's Lawyer:** Focuses on maximum penalty frameworks and civil compensation claims.
 
 
 * **Hallucination Control:** Uses a "Time-Aware" rewriting engine to ensure the advice is based on the law *effective at the time of the crime*, preventing errors when laws overlap between the 1999 and 2025 codes.
