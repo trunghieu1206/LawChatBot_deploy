@@ -56,6 +56,13 @@ Run the server:
 python3 server.py
 ```
 
+Set up Open Router API key Hugging Face key: In terminal run these commands:
+```
+export OPENROUTER_API_KEY=[your_key_here]
+
+export HF_TOKEN=[your_key_here]
+```
+
 ## Client-side
 In terminal run this command:
 ```
